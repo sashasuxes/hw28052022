@@ -31,11 +31,13 @@ function chooseFood() {
     const inpVal = inp.value;
     let notice = document.querySelector('.text');
     if (inpVal === "Колбаса") {
-        notice.textContent = "Вы взяли колбасу";
+        notice.insertAdjacentHTML('afterend', '<p id="two">Вы взяли колбасу</p>');
+        // notice.textContent = "Вы взяли колбасу";
 
     }
     else if (inpVal === "Сыр") {
-        notice.textContent = "Вы взяли сыр";
+        notice.insertAdjacentText('afterend', " Вы взяли сыр ");
+        // notice.textContent = "Вы взяли сыр";
     }
     else if (inpVal === "Борщ") {
         notice = "Вы взяли борщ";
