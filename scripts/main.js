@@ -40,7 +40,7 @@ function chooseFood() {
         // notice.textContent = "Вы взяли сыр";
     }
     else if (inpVal === "Борщ") {
-        notice = "Вы взяли борщ";
+        notice.textContent = "Вы взяли борщ";
     }
     else if (inpVal === "Бананы") {
         notice.textContent = "Вы взяли бананы";
